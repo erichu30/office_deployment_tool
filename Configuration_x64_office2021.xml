@@ -1,8 +1,9 @@
-<Configuration ID="d11b3849-7188-46dc-b185-ac78c4d78a63">
-  <Add OfficeClientEdition="32" Channel="PerpetualVL2021">
+<Configuration ID="1fa8020c-3c33-4518-b0d3-2638ec2974dd">
+  <Add OfficeClientEdition="64" Channel="PerpetualVL2021">
     <Product ID="ProPlus2021Volume" PIDKEY="">
       <Language ID="en-us" />
       <ExcludeApp ID="Access" />
+      <ExcludeApp ID="Groove" />
       <ExcludeApp ID="Lync" />
       <ExcludeApp ID="OneDrive" />
       <ExcludeApp ID="OneNote" />
@@ -17,5 +18,4 @@
   <Property Name="SCLCacheOverride" Value="0" />
   <Property Name="AUTOACTIVATE" Value="1" />
   <Updates Enabled="TRUE" />
-  <RemoveMSI />
 </Configuration>
